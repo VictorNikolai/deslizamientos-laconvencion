@@ -1,6 +1,6 @@
 ---
 title: Deslizamientos La Convencion
-emoji: 🛰️
+emoji: 🛰
 colorFrom: green
 colorTo: blue
 sdk: streamlit
@@ -8,7 +8,7 @@ sdk_version: 1.45.1
 app_file: app.py
 pinned: false
 license: mit
-short_description: Deteccion de deslizamientos en Sentinel-2 con U-Net y DeepLabV3+
+short_description: Deteccion de deslizamientos con Sentinel-2
 ---
 
 # Detección de deslizamientos · La Convención, Cusco
