@@ -1,0 +1,16 @@
+Aqui van los modelos ONNX.
+
+Si dejas esta carpeta vacia, la aplicacion los baja sola la primera vez que se
+pide un modelo, desde URL_PESOS_BASE (por defecto, el Git LFS del repositorio
+LeonardoCam/LandsSlide_LaConvencion). Funciona, pero cada reinicio del Space
+vuelve a bajarlos porque el disco no es persistente.
+
+Lo recomendable es subirlos aqui, al propio repositorio del Space:
+
+  deeplabv3_landslide.onnx        (322 KB, el grafo)
+  deeplabv3_landslide.onnx.data   (151 MB, los pesos)
+  unet_landslide.onnx             (104 KB)
+  unet_landslide.onnx.data        ( 66 MB)
+
+Hugging Face maneja Git LFS de forma nativa, asi que los .data suben sin
+problema. El .gitattributes del repositorio ya los marca.
