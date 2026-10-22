@@ -25,6 +25,6 @@ jobs:
           HF_USERNAME: ${{ secrets.HF_USERNAME }}
           HF_SPACE_NAME: ${{ secrets.HF_SPACE_NAME }}
         run: |
-          USER_NAME="${HF_USERNAME:-VictorNikolai}"
+          USER_NAME="${HF_USERNAME:-NikolaiVictor}"
           SPACE_NAME="${HF_SPACE_NAME:-deslizamientos-laconvencion}"
           git push --force "https://${USER_NAME}:${HF_TOKEN}@huggingface.co/spaces/${USER_NAME}/${SPACE_NAME}" main
